@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #0F0F11;
+}
+
+#footer {
+  background: #15181F;
+  
+  height: 8vh;
+  width: available;
+}
+
+#Fortuna {
+  z-index: 1000;
+  background: #202020;
+  background: linear-gradient(180deg, rgba(32, 32, 32, 1) 69%, rgba(232, 159, 26, 1) 77%, rgba(179, 30, 10, 1) 94%);
+  
+  width: 50vw;
+  height: 50vw;
+  border-radius: 100%;
+  
+  position: absolute;
+  top: 30vh;
+  left: 25%;
+  
+  transition-duration: 1s;
+}
+
+#Fonsquare { 
+  z-index: 2000;
+  background: #0F0F11;
+  
+  width: 40vw;
+  height: 40vw;
+  border-radius: 100%;
+  
+  position: absolute;
+  top: 3.2vh;
+  left: 10%;
+}
+
+#Arrow {
+  z-index: 3000;
+  background: #FFCE10;
+  
+  width: 5vw;
+  height: 15vw;
+  border-radius: ;
+  
+  position: absolute;
+  top: 20vh;
+  left: 47%;
+}
+
+#Start {
+  background: #F3BB1E;
+  
+  width: 40vw;
+  height: 15vw;
+  border-radius: 5vw;
+  
+  text-align: center;
+  line-height: 15vw;
+  font-size: 8vw;
+  
+  position: absolute;
+  top: 60vh;
+  left: 30%;
+}
